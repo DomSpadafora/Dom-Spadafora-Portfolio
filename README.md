@@ -34,5 +34,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio demo](https://domspadafora.github.io/Module-2-Challenge/)
-![repository](git@github.com:DomSpadafora/Module-2-Challenge.git)
+
 
