@@ -33,12 +33,13 @@ main {
   flex-wrap: wrap;
 }
 
-aside {
+#about-me {
   flex: 1;
   background-color: #195d85;
-  padding: 80px;
+  padding: 60px;
   text-align: center;
 }
+
 
 .center {
   display:block;
