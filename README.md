@@ -33,6 +33,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](https://domspadafora.github.io/Module-2-Challenge/)
+![portfolio demo](https://domspadafora.github.io/Dom-Spadafora-Portfolio/)
 
 
