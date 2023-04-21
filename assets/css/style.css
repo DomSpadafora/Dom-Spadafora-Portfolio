@@ -1,29 +1,21 @@
-* {
+body{
   background-image: url(../images/backgroundIMG.jpg);
   background-size: cover;
   background-attachment: fixed; 
+  font-family: 'Ubuntu Condensed', sans-serif;
+  padding: 2rem
+  
+
 }
 
-body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-}
-
-header {
-  padding: 40px;
+h1 {
   text-align: center;
-  color: #fff;
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 1rem
 }
 
-
-nav {
-  display: flex;
-  color: white
-}
-
-nav a {
-  padding: 14px 20px;
-  text-decoration: none;
+h2 {
   text-align: center;
 }
 
@@ -35,23 +27,28 @@ main {
 
 #about-me {
   flex: 1;
-  padding: 60px;
+  padding: 50px;
   text-align: center;
-  background-image: url(../images/stickyNote.png);
+  background-color: #feff9c;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  margin-left: 5rem;
+}
+
+.headshot {
+  margin-top: 5rem;
 }
 
 
-
-
 footer {
-  padding: 15px;
+  margin: 2rem;
   text-align: center;
-  color: #fff;
+  
 }
 
 .products {
   flex: 4;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -69,18 +66,16 @@ footer {
   margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  background-image: url(../images/stickyNote.png);
+  background-color: #feff9c;
   
 }
 
 .card header {
   padding: 20px;
-  background-image: url(../images/stickyNote.png);
 }
 
 .card p {
   text-align: center;
-  background-image: url(../images/stickyNote.png);
   
 }
 
@@ -89,19 +84,63 @@ footer {
   height: 60%;
 }
 
-.contact-me {
-  padding: 10px;
-  font-size: 100px;
+
+
+
+
+/* For screens between 768px and 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  h1 {
+    font-size: 60px;
+    margin: 0.75rem;
+  }
+
+  #about-me {
+    flex: 1 1 100%;
+    margin: 2rem 0;
+  }
+
+  .headshot {
+    margin-top: 2rem;
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 2rem);
+    margin: 1rem;
+  }
 }
 
-header li{
-  font-size: 20px;
-  line-height: 1.5
-}
+@media only screen and (max-width: 767px) {
 
-@media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
+  h1 {
+    font-size: 50px;
+    margin: 0.5rem;
+  }
+
+  body {
+    justify-content: center;
+    padding: 0;
+    margin: 1;
+
+  }
+
+  #about-me {
+    margin: 0;
+    justify-content: center;
+  }
+
+
+  .headshot {
+    margin-top: 2rem;
+  }
+
+  .card {
+    flex: 0 0 100%;
+    margin: 1rem 0;
+  }
+
+  .products {
+    padding: 2rem;
   }
 }
